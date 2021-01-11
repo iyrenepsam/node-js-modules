@@ -8,7 +8,7 @@ var network = myos.networkInterfaces()
 console.log(network)
 var data = JSON.stringify(network)
 
-myfile.appendFile('networkdata.txt', network, function( error ){
+myfile.appendFile('networkdata.txt', data , function( error ){
     if(error){
         throw error;
 
