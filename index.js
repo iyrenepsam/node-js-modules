@@ -31,3 +31,5 @@ myfile.appendFile('networkdata.txt',network,function (error) {
 
 } );
 
+
+
